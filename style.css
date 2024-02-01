@@ -24,3 +24,21 @@ body{
     display: flex;
     align-items: center;
 }
+
+#logo-container img{
+    width: 34px;
+    height: 30px;
+}
+
+#nav-items{
+    display: flex;
+    width: 600px;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 300;
+}
+
+#nav-items li{
+    cursor: pointer;
+}
