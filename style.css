@@ -62,6 +62,7 @@ body{
 #main-header .left .big-text{
     font-size: 70px;
     color: #ffffff;
+    font-weight: 900;
 }
 
 #main-header .left #overview{
@@ -78,11 +79,10 @@ body{
 }
 
 #main-header .left #overview .overview-items h4{
-    font-weight: 700;
+    font-weight: 300;
     font-size: 20px;
     margin: 0;
     padding: 0;
-    letter-spacing: 2px;
 }
 
 .gradient-text{
@@ -107,4 +107,42 @@ body{
     height: 105vh;
     /* margin-top: -2vh; */
     border-radius: 600px;
+}
+
+.buttons{
+    display: flex;
+}
+
+.btn{
+    padding: 10px 20px;
+    margin: 0 10px;
+    transform: skewX(-20deg);
+    border: 1px solid #7d63f1;
+    cursor: pointer;
+    background-color: transparent;
+    color: #ffffff;
+}
+
+.btn1{
+    background: #2D1E6B;
+    background: linear-gradient(45deg, #7d63f1 6%, #2c2c94 28%, #f805d0 97%);
+}
+
+.band{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 10px;
+    margin-top: 15px;
+    margin-bottom: 100px;
+    color: #ffffff;
+    transform: rotate(-3deg);
+    border: 1px solid #ffffff40;
+    font-size: 30px;
+    font-weight: 900;
+    background: #ffffff40;
+    box-shadow: 0 80px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
 }
