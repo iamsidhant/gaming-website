@@ -200,6 +200,25 @@ body{
     border-radius: 7px;
     background: #35276D;
     backdrop-filter: blur(4px);
-    width: 105%;
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+
+.discover-card img{
+    width: 50%;
+    align-items: flex-start;
+    margin: 0 auto;
+}
+
+.discover-card-details .big-text{
+    font-size: 50px;
+    font-weight: 900;
+    margin: 0;
+}
+
+.discover-card-details-btn{
+    width: fit-content;
+    border: 1px solid gray;
+    padding: 10px 20px;
+    transform: skewX(-20deg);
+    margin-bottom: 20px;
 }
