@@ -161,3 +161,45 @@ body{
     font-size: 40px;
     font-weight: 900;
 }
+
+.section-description{
+    width: 500px;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.choose-section .image-carousal{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.image-carousal img{
+    width: 300px;
+    height: 400px;
+}
+
+.image-carousal .center-img{
+    width: 600px;
+    height: 400px;
+}
+
+.discover-section{
+    width: 75%;
+    margin: 100px auto;
+}
+
+.discover-card{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #ffffff;
+    border: 1px solid #ffffff40;
+    border-radius: 7px;
+    background: #35276D;
+    backdrop-filter: blur(4px);
+    width: 105%;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}

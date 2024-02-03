@@ -1,2 +1,2 @@
 # gaming-website
-Gaming website UI
+Landing page of VR Gaming website
