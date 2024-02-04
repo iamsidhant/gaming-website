@@ -222,3 +222,12 @@ body{
     transform: skewX(-20deg);
     margin-bottom: 20px;
 }
+
+.demo-cards-section{
+    width: 100%;
+    margin: 20px auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+}
