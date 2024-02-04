@@ -231,3 +231,24 @@ body{
     flex-direction: column;
     color: #ffffff;
 }
+
+.demo-cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 30px auto;
+}
+
+.demo-card{
+    width: 393px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    padding: 23px 19px;
+    border: 1px solid #ffffff28;
+    border-radius: 7px;
+    background: #35276D;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+}
