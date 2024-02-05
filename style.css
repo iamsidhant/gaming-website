@@ -291,6 +291,52 @@ body{
     flex-direction: column;
     gap: 40px;
     color: #ffffff;
+    background: linear-gradient(45deg, #2c2c94 28%, #f805d0 97%);
     padding: 100px 10% 0 10%;
     position: relative;
+}
+
+/* .footer-container > img{
+    display: flex;
+    width: 35%;
+    align-self: self-end;
+    justify-content: center;
+    position: relative;
+} */
+
+.footer-container .about-and-links .logo-container{
+    width: 100%;
+}
+
+.footer-container .about-and-links{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-container .about-and-links p{
+    width: 23%;
+    margin: 35px;
+}
+
+.footer-container .about-and-links ul{
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 23px;
+    padding: 0;
+    list-style: none;
+    align-items: center;
+}
+
+.footer-container .about-and-links h4{
+    margin: 43px;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.footer-container .brands{
+    display: flex;
+    gap: 50px;
 }
